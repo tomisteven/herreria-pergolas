@@ -11171,6 +11171,8 @@ button.bg-dark:focus {
 .text-white {
   color: #fff !important;
   font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
 }
 
 .text-primary {
@@ -11626,9 +11628,35 @@ pre {
 .header {
   height: 100vh;
   max-height: 900px;
-  background: url(../herreria/herreria1.jpg) no-repeat center center fixed;
+  background: url(../herreria/pergola11.png) no-repeat top center fixed;
   background-size: cover;
   min-height: 750px;
+}
+.logo-celular{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    background: url(../herreria/pergola6.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 750px;
+    width: 100%;
+  }
+  .logo-celular{
+    display: block;
+    width: 100px;
+    height: 100px;
+    z-index: 1000;
+    top: 0;
+  }
+  .display-2{
+    font-size: 1.5rem;
+  }
+  .display-4{
+    font-size: 0.8rem;
+    width: 90%;
+  }
+
 }
 
 .header .overlay {
@@ -11863,7 +11891,37 @@ pre {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   color: green;
+  background-color: white;
+  text-align: center;
   border-radius: 10px;
   padding: 10px 20px;
   width: 50%;
+}
+
+.whatsapp-icon{
+  font-size: 2rem;
+  color: green;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  animation: moveicon 1.3s infinite;
+}
+
+.whatsapp-icon:hover{
+  color: #25d366;
+}
+
+@keyframes moveicon {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
