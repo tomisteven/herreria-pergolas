@@ -288,8 +288,6 @@ select {
   word-wrap: normal;
 }
 
-
-
 button:not(:disabled),
 [type="button"]:not(:disabled),
 [type="reset"]:not(:disabled),
@@ -11255,16 +11253,16 @@ a.text-dark:focus {
   color: white !important;
 }
 
-.text-como-encontras{
+.text-como-encontras {
   color: white !important;
   font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 500;
 }
-.text-como-encontras-p{
+.text-como-encontras-p {
   color: white !important;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 500;
 }
 
@@ -11632,7 +11630,7 @@ pre {
   background-size: cover;
   min-height: 750px;
 }
-.logo-celular{
+.logo-celular {
   display: none;
 }
 @media screen and (max-width: 768px) {
@@ -11642,21 +11640,20 @@ pre {
     min-height: 750px;
     width: 100%;
   }
-  .logo-celular{
+  .logo-celular {
     display: block;
     width: 100px;
     height: 100px;
     z-index: 1000;
     top: 0;
   }
-  .display-2{
+  .display-2 {
     font-size: 1.5rem;
   }
-  .display-4{
+  .display-4 {
     font-size: 0.8rem;
     width: 90%;
   }
-
 }
 
 .header .overlay {
@@ -11809,7 +11806,7 @@ pre {
   width: 100%;
   height: 100%;
   max-height: 380px;
-  object-fit: cover ;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -11873,20 +11870,19 @@ pre {
   transition: all 0.3s ease;
 }
 
-
-.img-footer{
+.img-footer {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-#contact{
-  background: url(../herreria/pergola11.png) no-repeat  fixed;
+#contact {
+  background: url(../herreria/pergola11.png) no-repeat fixed;
   background-size: cover;
   min-height: 550px;
 }
 
-.hablar-con-asesor{
+.hablar-con-asesor {
   font-size: 1rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
@@ -11898,7 +11894,7 @@ pre {
   width: 50%;
 }
 
-.whatsapp-icon{
+.whatsapp-icon {
   font-size: 2rem;
   color: green;
   position: fixed;
@@ -11910,7 +11906,27 @@ pre {
   animation: moveicon 1.3s infinite;
 }
 
-.whatsapp-icon:hover{
+.servicios-footer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.servicios-footer h1 {
+  font-size: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  color: white;
+  border-bottom: 1px solid white;
+  padding-bottom: 7px;
+}
+
+.whatsapp-icon:hover {
   color: #25d366;
 }
 
